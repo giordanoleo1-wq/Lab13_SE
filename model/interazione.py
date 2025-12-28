@@ -8,7 +8,7 @@ class Interazione:
 
 
     def __str__(self):
-        return f"{self.id_gene1} {self.tipo} {self.id_gene2}"
+        return f"{self.id_gene1}|{self.id_gene2} --> {self.correlazione}"
     def __hash__(self):
         return hash(self.id_gene1)
 
